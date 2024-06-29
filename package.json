@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot-handler",
+  "version": "0.0.1",
+  "description": "Discord bot handler",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "keywords": [
+    "Discord",
+    "Handler",
+    "Bot"
+  ],
+  "author": "Shen",
+  "license": "ISC",
+  "dependencies": {
+    "colorette": "^2.0.20",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
