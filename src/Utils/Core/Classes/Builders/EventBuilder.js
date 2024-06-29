@@ -3,8 +3,7 @@
  */
 class ClientEventBuilder {
   /**
-   * 
-   * @param {import("../../Typings/Events/TEventType").TClientEventType<T>} data 
+   * @param {import("../../Typings/Events/TEventType").TClientEventType<T>} data
    */
   constructor(data) {
     Object.assign(this, data);
@@ -16,8 +15,7 @@ class ClientEventBuilder {
  */
 class RestEventBuilder {
   /**
-   * 
-   * @param {import("../../Typings/Events/TEventType").TClientRestEventType<T>} data 
+   * @param {import("../../Typings/Events/TEventType").TClientRestEventType<T>} data
    */
   constructor(data) {
     Object.assign(this, data);
@@ -26,5 +24,5 @@ class RestEventBuilder {
 
 module.exports = {
   ClientEventBuilder,
-  RestEventBuilder
-}
+  RestEventBuilder,
+};
